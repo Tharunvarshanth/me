@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style/homepageStyle.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><i class="fa-brands fa-unity fa-2xl"></i></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span><i class="fa-solid fa-bars fa-xl"></i></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#experience">Experience</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- HomePage -->
+      <section id="home">
+          <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-5 col-md-5 col-12 d-flex justify-content-center" id="myImage">
+                    <img src="images/mypic.png" class="img-fluid" alt="mypic">
+                </div>
+                <div class="col-lg-7 col-md-7 col-12 ">
+                    <div id="myIntro" data-aos="fade-left"
+                    data-aos-anchor="#example-anchor"
+                    data-aos-offset="500"
+                    data-aos-duration="500">
+                        <p id="hello">Hello...</p>
+                        <p id="name">I'm Tharun Varshanth</p>
+                        <p id="job">Software Engineer in Srilanka.</p>
+                        <a href="mailto:tharun.varshanth.k@gmail.com" class="btn" id="getMe">Get Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <div id="contact" data-aos="fade-left"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine">
+        <a href="https://www.linkedin.com/in/tharun-varshanth-krishnamoorthy/"><i class="fa-brands fa-linkedin fa-2x" style="color:#00ccb4"></i></a>
+        <a href="https://github.com/Tharunvarshanth"><i class="fa-brands fa-github fa-2x" style="color:#00ccb4"></i></a>
+        <a href="mailto:tharun.varshanth.k@gmail.com"><i class="fa-regular fa-envelope fa-2x" style="color:#00ccb4"></i></a>
+        <a href="https://web.facebook.com/tharun.varshanth/"><i class="fa-brands fa-square-facebook fa-2x" style="color:#00ccb4"></i></a>
+        <a href="https://wa.me/+94768407950"><i class="fa-brands fa-whatsapp fa-2x" style="color:#00ccb4"></i></a>
+      </div>
+
+      <!-- About -->
+      <section id="about">
+          <div class="container">
+            <h1><span><i class="fa-solid fa-greater-than fa-sm"></span></i> ABOUT ME</h1>
+              <div class="row">
+                  <div id="myPara" class="col-lg-7 col-md-7 col-12" >
+                    <p data-aos="fade-up">With valuable experience gained at Daraz, a prominent company in South Asia, I am confident in my alignment with the requirements of this role. As a Software Engineer at Daraz, I've immersed myself in a diverse array of technologies, including Java Spring Boot, Vue.js, and Alibaba Cloud services. This journey has not only solidified my understanding of these technologies but also honed my adaptability across different tech stacks.
+                      <br>
+                      Furthermore, my time at Mitra Innovation provided me with invaluable exposure to various projects, where I contributed to teamwork and collaboration, demonstrated leadership qualities, maintained state management, ensured device/browser compatibility, developed responsive UIs for optimal viewing across devices, handled error responses, engaged with clients to address their needs, implemented secure authentication, authorization, and APIs, made strategic design choices to enhance user experience, developed website features that can enhance the user experience, integrated Identity Provider with frontend and microservices, integrated CI/CD pipelines, and managed deployment processes.</p>
+                  </div>
+                  <div class="col-lg-5 col-md-5 col-12 d-flex justify-content-center" id="buttons">
+                    <div class="card">
+                      <a href="#" data-aos="fade-up"><img src="images/tharun1.jpg" class="card-img-top img-fluid" alt="my-profile"></a>
+                      <div class="card-body" id="button" data-aos="fade-up">
+                          <a href="https://www.linkedin.com/in/tharun-varshanth-krishnamoorthy/" class="btn ">linkedin</a>
+                          <a href="https://github.com/Tharunvarshanth" class="btn ">github</a>
+                          <a href="file/myResume.pdf" download class="btn ">resume</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mobileButton" data-aos="fade-up">
+                    <a href="https://www.linkedin.com/in/tharun-varshanth-krishnamoorthy/" class="btn ">linkedin</a>
+                    <a href="https://github.com/Tharunvarshanth" class="btn ">github</a>
+                    <a href="file/myResume.pdf" download class="btn ">resume</a>
+                </div>
+              </div>
+          </div>
+      </section>
+
+      <!-- experience -->
+      <section id="experience">
+        <div class="container">
+          <h1><span><i class="fa-solid fa-greater-than fa-sm"></span></i> EXPERIENCE</h1>
+          <div class="row">
+            <div class="col-lg-7  col-12" id="work">
+              <div id="nowJob" data-aos="zoom-in">
+                <img src="images/daraz.png" alt="darazLogo">
+                <div id="details">
+                  <p id="position">Software Engineer at <span id="company"> <a href="https://daraz.com/"> Daraz Financial Services</a></span><br><span id="years">2023 March (Present)</span></p>
+                  <p id="coreTech">Core Technologies</p>
+                  <div id="tech" style="display: flex; flex-wrap: wrap ;">
+                    <p style="background-color:#4fc08d ;padding: 4px 12px;">Vue.js</p>
+                    <p style="background-color:#6DB33F ;padding: 4px 12px;">Spring Boot</p>
+                    <p style="background-color:#4479a1 ;padding: 4px 12px;">Mysql</p>
+                    <p style="background-color:#ff6701 ;padding: 4px 12px;">Alibaba cloud</p>
+                  </div>
+                </div>
+              </div>
+              <div id="nowJob" class="mt-5" data-aos="zoom-in">
+                <img src="images/mithra.png" alt="darazLogo">
+                <div id="details">
+                  <p id="position">Associate Software Engineer at <span id="company"> <a href="https://mitrai.com/"> Mitra Innovations</a></span><br><span id="years">2022 Feb - 2023 March</span></p>
+                  <p id="coreTech">Core Technologies</p>
+                  <div id="tech" style="display: flex; flex-wrap: wrap ;">
+                    <p style="background-color:#09d3ac ; padding: 4px 12px;">React</p>
+                    <p style="background-color:#dd0013 ; padding: 4px 12px;">Angular</p>
+                    <p style="background-color:#00add8 ; padding: 4px 12px;">GO</p>
+                    <p style="background-color:#232f3e ; padding: 4px 12px;">AWS</p>
+                    <p style="background-color:#C17B9E ; padding: 4px 12px;">Cognito</p>
+                    <p style="background-color:#4479a1 ; padding: 4px 12px;">Keycloak</p>
+                    <p style="background-color:#ff6701 ; padding: 4px 12px;">Microservice</p>
+                    <p style="background-color:#2496ed ; padding: 4px 12px;">KongDocker</p>
+                    <p style="background-color:#BA2BD2 ; padding: 4px 12px;">ngrx</p>
+                    <p style="background-color:#326ce5 ; padding: 4px 12px;">Kubernetes</p>
+                    <p style="background-color:#FF9900 ; padding: 4px 12px;">aws serverless lambda .NET</p>
+                  </div>  
+                </div>
+              </div>
+              <div id="nowJob" class="mt-5" data-aos="zoom-in">
+                <img src="images/mithra.png" alt="darazLogo">
+                <div id="details">
+                  <p id="position">Intern Software Engineer at <span id="company"> <a href="https://mitrai.com/"> Mitra Innovations</a></span><br><span id="years">2022 Feb - 2023 March</span></p>
+                  <p id="coreTech">Core Technologies</p>
+                  <div id="tech" style="display: flex; flex-wrap: wrap ;">
+                    <p style="background-color:#09d3ac ; padding: 4px 12px;">React Native</p>
+                    <p style="background-color:#683D87 ; padding: 4px 12px;">Bitrise</p>
+                    <p style="background-color:#FF9900 ; padding: 4px 12px;">aws server less lambda-node js</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-5  col-12" id="techStack">
+              <h1><span><i class="fa-solid fa-greater-than fa-sm"></span></i> Tech Stack</h1>
+              <p id="intro" data-aos="zoom-in">Usually the tools I use for the job, depend on the job. There's no one-size fits all, and as such I'm always trying out new technologies, and constantly learning.</p>
+              <div id="Technologies" data-aos="zoom-in">
+                <p id="head">Programming Languages</p>
+                <div>
+                  <p style="background-color:#3178c6 ; padding: 4px 12px;">TypeScript</p>
+                  <p style="background-color:#F0DB4F ; padding: 4px 12px;">JavaScript</p>
+                  <p style="background-color:#00add8 ; padding: 4px 12px;">Go</p>
+                  <p style="background-color:#007396 ; padding: 4px 12px;">Java</p>
+                  <p style="background-color:#00A758 ; padding: 4px 12px;">Dart</p>
+                  <p style="background-color:#4479a1 ; padding: 4px 12px;">SQL</p>
+                  <p style="background-color:#777bb4 ; padding: 4px 12px;">Php</p>
+                  <p style="background-color:#A9B9CB ; padding: 4px 12px;">C</p>
+                </div>
+              </div>
+              <div id="Technologies" data-aos="zoom-in">
+                <p id="head"> Frameworks	& Technologies</p>
+                <div>
+                  <p style="background-color:#09d3ac ; padding: 4px 12px;">React js</p>
+                  <p style="background-color:#6DB33F ; padding: 4px 12px;">Spring boot</p>
+                  <p style="background-color:#dd0013 ; padding: 4px 12px;">Angular</p>
+                  <p style="background-color:#4fc08d ; padding: 4px 12px;">Vue Js</p>
+                  <p style="background-color:#02569b ; padding: 4px 12px;">Flutter</p>
+                  <p style="background-color:#F5820D ; padding: 4px 12px;">Firebase</p>
+                  <p style="background-color:#3c873a ; padding: 4px 12px;">Express Js </p>
+                  <p style="background-color:#3ddc84 ; padding: 4px 12px;">Android</p>
+                  <p style="background-color:#2494ed ; padding: 4px 12px;">Docker</p>
+                  <p style="background-color:#232f3e ; padding: 4px 12px;">AWS</p>
+                  <p style="background-color:#09d3ac ; padding: 4px 12px;">React Native</p>
+                  <p style="background-color:#f05138 ; padding: 4px 12px;">Ios</p>
+                  <p style="background-color:#F1502F ; padding: 4px 12px;">Git</p>
+                  <p style="background-color:#326ce5 ; padding: 4px 12px;">Kubernetes</p>
+                </div>
+              </div>
+              <div id="Technologies" data-aos="zoom-in">
+                <p id="head">Databases</p>
+                <div>
+                  <p style="background-color:#4479a1 ; padding: 4px 12px;">MySQL</p>
+                  <p style="background-color:#47a248 ; padding: 4px 12px;">Mongo</p>
+                  <p style="background-color:#336791 ; padding: 4px 12px;">PostgreSQL</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects">
+        <div class="container">
+          <h1><span><i class="fa-solid fa-greater-than fa-sm"></span></i> PROJECTS</h1>
+          <div class="row d-flex justify-content-center" id="projects">
+            <div class="col-lg-10" id="project" data-aos="fade-up">
+              <h4>KOKO</h4>
+              <h5>at Daraz Financial Services</h5>
+              <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, voluptates? Ullam, harum animi maxime ratione rerum repellendus a totam quod possimus at voluptas ex eveniet saepe commodi! Minus quidem, consectetur ea impedit accusantium ad vero aut iusto similique rem soluta aspernatur reiciendis dicta cum atque voluptatem cumque eaque necessitatibus sed suscipit nemo. Saepe a praesentium eaque, illum ipsam quis culpa quaerat magnam officia cupiditate nemo unde quibusdam. Sequi ullam expedita obcaecati asperiores perspiciatis mollitia provident deserunt, laboriosam soluta molestiae? Ipsum atque qui optio reprehenderit in nemo quasi quae nesciunt neque animi incidunt, sequi aut itaque voluptates nam consequuntur, eveniet fuga.</p>
+            </div>
+            <div class="col-lg-10" id="project" data-aos="fade-up">
+              <h4>KOKO</h4>
+              <h5>at Daraz Financial Services</h5>
+              <p id="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non ducimus corrupti, laborum officiis pariatur quae possimus rem nesciunt maxime doloremque odit facilis fugiat laboriosam ullam cumque accusantium, repellat tempora eius! Non iste consectetur dolorum excepturi officia distinctio ea minus velit error, aspernatur voluptates, sunt maiores corrupti id libero commodi ipsum? Fuga similique inventore perferendis qui velit id aperiam est, culpa ea atque molestiae beatae nesciunt iure, saepe tempora hic consequatur expedita perspiciatis exercitationem. Nostrum maiores vero facere deserunt fugiat nulla tenetur veniam eum velit possimus similique odit quasi quo fuga molestiae, sapiente voluptates nesciunt iste dolorem officiis eveniet inventore. Numquam asperiores possimus animi nam doloremque assumenda laudantium voluptas et culpa accusantium quisquam, velit quo, sit voluptatum explicabo unde eaque modi perferendis. Cum est dolor omnis rem vitae quos itaque doloremque blanditiis. Minus, reiciendis maxime, assumenda rem impedit consectetur eligendi, quis adipisci amet doloribus maiores quibusdam. Fuga vero mollitia nemo atque!</p>
+            </div>
+            <div class="col-lg-10" id="project" data-aos="fade-up">
+              <h4>KOKO</h4>
+              <h5>at Daraz Financial Services</h5>
+              <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, voluptates? Ullam, harum animi maxime ratione rerum repellendus a totam quod possimus at voluptas ex eveniet saepe commodi! Minus quidem, consectetur ea impedit accusantium ad vero aut iusto similique rem soluta aspernatur reiciendis dicta cum atque voluptatem cumque eaque necessitatibus sed suscipit nemo. Saepe a praesentium eaque, illum ipsam quis culpa quaerat magnam officia cupiditate nemo unde quibusdam. Sequi ullam expedita obcaecati asperiores perspiciatis mollitia provident deserunt, laboriosam soluta molestiae? Ipsum atque qui optio reprehenderit in nemo quasi quae nesciunt neque animi incidunt, sequi aut itaque voluptates nam consequuntur, eveniet fuga.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- footer -->
+      <footer>
+        <div>
+          <p><i class="fa-regular fa-copyright fa"></i><a href=""> Tharun Varshanth</a> 2024</p>
+        </div>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
