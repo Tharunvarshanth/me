@@ -3,14 +3,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Rubik+Scribble&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
-body{
+
+body {
     margin: 0;
     padding: 0;
     font-family: 'Exo 2', sans-serif !important;
-    
+
 }
 
-#navbar{
+#navbar {
     background-color: #080e20 !important;
     font-size: 1.3vw;
     position: sticky;
@@ -18,27 +19,38 @@ body{
     left: 0;
     z-index: 100;
     padding: 20px;
-    
+
 }
-#navbar a{
+
+#navbar a {
     color: #E4F1FF !important;
 }
-#navbar span{
+
+#navbar span {
     color: #E4F1FF !important;
 }
-#navbar button:active{
+
+#navbar button:active {
     outline: none;
     border: none;
 }
-#navbar .navbar-brand i:hover{
+
+#navbar .navbar-brand i:hover {
     color: #00ccb4;
 }
-#navbarSupportedContent li:hover{
+
+#navbarSupportedContent li:hover {
     border-bottom: 3px solid #00ccb4;
 }
-.active{
+
+.active {
     border-bottom: #00ccb4;
 }
+
+#myIntro .btn {
+    display: inline !important;
+}
+
 /* #navbarSupportedContent li:focus{
     border-bottom: 3px solid #4CB9E7;
     color: #4CB9E7;
@@ -46,32 +58,36 @@ body{
 #navbarSupportedContent li:active{
     color: #00ccb4;
 } */
-#home{
+#home {
     /* padding-top: 3vw; */
     border-left: 2vw solid #00ccb4;
     background-color: #080e20;
 }
-#home #myIntro{
+
+#home #myIntro {
     color: #E4F1FF;
     font-family: 'Nova Square', sans-serif;
-    position:relative;
+    position: relative;
     top: 160px;
 }
-#home #myIntro #hello{
+
+#home #myIntro #hello {
     opacity: 40%;
-    font-size:3vw;
+    font-size: 3vw;
     margin-bottom: 20px;
 
 }
-#home #myIntro #name{
+
+#home #myIntro #name {
     position: relative;
     bottom: 30px;
     font-family: 'Patua One', serif;
-    font-size:3vw;
+    font-size: 3vw;
     font-weight: bold;
     letter-spacing: 7px;
 }
-#home #myIntro #job{
+
+#home #myIntro #job {
     position: relative;
     bottom: 50px;
     font-family: 'Patua One', serif;
@@ -80,7 +96,8 @@ body{
     letter-spacing: 4px;
     opacity: 80%;
 }
-#home #myImage img{
+
+#home #myImage img {
     /* position: relative;
     right: 50px; */
 }
@@ -99,12 +116,14 @@ body{
 
 } */
 
-#getMe {
-    background-color: #00ccb4;
+
+
+.getMe {
+    /*background-color: #00ccb4;*/
     height: 4%;
-    width: 17%;
+    width: 50%;
     font-size: 1.5vw;
-    color: #080e20;
+    color: white;
     position: relative;
     bottom: 50px;
     display: flex;
@@ -115,93 +134,109 @@ body{
     position: relative;
     overflow: hidden;
     z-index: 1;
-    
-  }
-  #getme:active{
+
+}
+
+
+
+#getme:active {
     outline: none;
     border: none;
-  }
-  #getMe:after {
+}
+
+.getMe:after {
     content: "";
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #00ccb4;
+
     border-radius: 12px;
     z-index: -2;
-  }
-  #getMe:before {
+}
+
+.getMe:before {
     content: "";
     position: absolute;
     bottom: 0;
     left: 0;
     width: 0%;
     height: 100%;
-    background-color: #0c9e8d;
+
     transition: all 0.3s;
     border-radius: 12px;
     z-index: -1;
-  }
-  #getMe:hover {
+}
+
+.getMe:hover {
     color: #E4F1FF;
-  }
-  #getMe:hover:before {
+}
+
+.getMe:hover:before {
     width: 100%;
-  }
+}
 
 
 
 /* About */
-#about{
-    background-color: #0a192f  ;
+#about {
+    background-color: #0a192f;
     min-height: 80vh;
     /* width: 100vw; */
-    padding-top:3vw ;
+    padding-top: 3vw;
 }
-#about h1{
+
+#about h2 {
     font-family: 'Rowdies', sans-serif;
-    font-size: 60px;
+    font-size: 2em;
     padding-top: 30px;
     color: #4CB9E7;
     /* background-color: red; */
 }
-#about h1 span{
+
+#about h2 span {
     opacity: 60%;
 }
-#about #myPara{
-    color:#E4F1FF;
+
+#about #myPara {
+    color: #E4F1FF;
     font-size: 18px;
-    background-color:rgba(8,14,32,0.9);
+    background-color: rgba(8, 14, 32, 0.9);
     padding: 20px;
 }
-#about .card{
-    background-color:rgba(8,14,32,0.9) ;
+
+#about .card {
+    background-color: rgba(8, 14, 32, 0.9);
     width: 27vw;
     height: 35vw;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-#about .card{
+
+#about .card {
     transition: transform .2s;
     cursor: pointer;
 }
-#about .card :hover{
+
+#about .card :hover {
     transform: scale(1.02);
 }
-#about .card #button{
+
+#about .card #button {
     display: grid;
-    grid-template-columns:2fr 2fr 2fr;
+    grid-template-columns: 2fr 2fr 2fr;
     gap: .5vw;
 }
-#about .card img{
+
+#about .card img {
     width: 23vw;
     /* height: 28vw; */
     padding-top: 11%;
 }
-#about .card #button a{
+
+#about .card #button a {
     height: 3vw;
     font-size: 1.3vw;
     font-weight: 600;
@@ -212,15 +247,18 @@ body{
     align-items: center;
     letter-spacing: .1vw;
 }
-#about .card #button a:hover{
+
+#about .card #button a:hover {
     background-color: #00ccb4;
     color: #080e20;
-    border-radius:5px ;
+    border-radius: 5px;
 }
-#about .mobileButton{
+
+#about .mobileButton {
     padding: 0;
 }
-#about .mobileButton a{
+
+#about .mobileButton a {
     visibility: hidden;
     text-align: center;
     font-size: 1.3vw;
@@ -229,70 +267,106 @@ body{
     border: 1px solid #00ccb4;
     letter-spacing: .3vw;
 }
-#about .mobileButton a:hover{
+
+#about .mobileButton a:hover {
     background-color: #00ccb4;
     color: #080e20;
-    border-radius:5px ;
+    border-radius: 5px;
 }
 
-#experience{
+#experience {
     background-color: #0a192f;
     min-height: 90vh;
 }
-#experience h1{
+
+#experience h2 {
     font-family: 'Rowdies', sans-serif;
-    font-size: 60px;
+    font-size: 2em;
     padding-top: 30px;
     color: #4CB9E7;
 }
-#experience h1 span{
+
+#experience h2 span {
     opacity: 60%;
 }
-#experience #work{
+
+#experience #work {
     background-color: #080e20;
     display: flex;
     flex-direction: column;
     /* align-items: start; */
     padding-top: 4vw;
-    padding-left: 4vw; 
+    padding-left: 4vw;
     border-right: 12px solid #0a192f;
 
 }
-#experience #details{
-    padding-top: 10px;
-    margin-left: -2vw;
+
+#details {
+    padding: 10px;
+    /*margin-left: -2vw;*/
 }
 
-#experience #details #position{
-    color:#E4F1FF;
+.details {
+    padding: 10px;
+}
+
+.education-card {
+    margin-top: 10px;
+    width: 90%;
+}
+
+.education-card .details .course-name {
+    color: #E4F1FF;
+    font-size: 18px;
+    padding-top: 0;
+}
+
+.education-card .details .date {
+    font-size: 14px;
+}
+
+.education-card .details .place {
+    color: #8898b0;
+    font-size: 16px;
+
+}
+
+#experience #details #position {
+    color: #E4F1FF;
     font-size: 20px;
     padding-top: 0;
 }
-#experience #details #company{
+
+#experience #details #company {
     font-size: 15px;
 }
-#experience #details #years{
-    color:#8898b0;
+
+#experience #details #years {
+    color: #8898b0;
     font-size: 14px;
     margin-top: -5px;
 }
-#experience #nowJob{
+
+#experience #nowJob {
     /* background-color: red; */
     display: grid;
     grid-template-columns: 1fr 3fr;
-    
+
 }
-#experience #nowJob img{
-    height:8vw;
+
+#experience #nowJob img {
+    height: 8vw;
     width: 8vw;
     border: 3px solid #8898b0;
     border-radius: 50%;
 }
-#experience #nowJob #details a{
+
+#experience #nowJob #details a {
     text-decoration: none;
     color: #00ccb4;
     font-weight: 600;
 }
+
 #experience #nowJob #details a:hover {
     background-color: #00ccb4;
     color: #0a192f;
@@ -300,50 +374,59 @@ body{
     padding: 3px;
 
 }
-#experience #nowJob #details #coreTech{
+
+#experience #nowJob #details #coreTech {
     color: #8898b0;
     font-size: 20px;
     font-weight: 600;
     margin-top: -9px;
 }
-#experience #nowJob #details #tech{
+
+#experience #nowJob #details #tech {
     /* display: flex; */
-    
+
 }
-#experience #nowJob #details #tech p{
-    margin-left:1vw;
+
+#experience #nowJob #details #tech p {
+    margin-left: 1vw;
     font-size: 14px;
     text-align: center;
     color: #E4F1FF;
     font-weight: 600;
     border-radius: 4px;
 }
-#experience #techStack{
-    background-color:#080e20;
+
+#experience #techStack {
+    background-color: #080e20;
     border-left: 10px solid #0a192f;
 }
-#experience #techStack #intro{
+
+#experience #techStack #intro {
     color: #E4F1FF;
     font-size: 20px;
 }
-#experience #techStack #Technologies{
+
+#experience #techStack #Technologies {
     border-bottom: 1px solid #8898b0;
 
 }
-#experience #techStack #Technologies #head{
+
+#experience #techStack #Technologies #head {
     color: #8898b0;
     font-size: 25px;
     font-weight: 600;
     margin-top: 20px;
     text-align: start;
 }
-#experience #techStack #Technologies div{
+
+#experience #techStack #Technologies div {
     display: flex;
     flex-wrap: wrap;
     margin: 1.5vw;
 }
-#experience #techStack #Technologies p{
-    margin-left:1vw;
+
+#experience #techStack #Technologies p {
+    margin-left: 1vw;
     font-size: 14px;
     text-align: center;
     color: #E4F1FF;
@@ -352,34 +435,43 @@ body{
 }
 
 /* projects */
-#projects{
+#projects {
     background-color: #0a192f;
     min-height: 90vh;
-    
 }
-#projects h1{
+
+.education-card {
+    background-color: #0a192f;
+    color: #E4F1FF;
+}
+
+#projects h2 {
     font-family: 'Rowdies', sans-serif;
-    font-size: 4vw;
+    font-size: 2em;
     padding-top: 30px;
     color: #4CB9E7;
 }
-#projects #project{
+
+#projects #project {
     border-bottom: 1px solid #8898b0;
     margin-top: 1vw;
 }
-#projects #project h4,h5{
+
+#projects #project h4,
+h5 {
     color: #E4F1FF;
     font-weight: 900;
     letter-spacing: .2vw;
 }
-#projects #project p{
+
+#projects #project p {
     color: #8898b0;
     font-size: 1.2vw;
 }
-#contact{
-    
-}
-#contact a{
+
+#contact {}
+
+#contact a {
     margin-top: auto;
     margin-bottom: auto;
     /* padding-top: 2vh; */
@@ -390,10 +482,11 @@ body{
     initial-value: 90deg;
     inherits: true;
 }
-  
+
 :root {
-      --angle: 90deg;
+    --angle: 90deg;
 }
+
 #contact {
     background-color: #080e20;
     height: 250px;
@@ -402,24 +495,25 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position:absolute;
+    position: absolute;
     left: 93vw;
     bottom: 18vw;
-    border : 3px solid;
-    position:fixed;
+    border: 3px solid;
+    position: fixed;
 
-      border-image: conic-gradient(from var(--angle),  rgba(0,204,180,0.1),  rgba(0,204,180,1) 0.1turn,  rgba(0,204,180,1) 0.15turn,  rgba(0,204,180,0.1) 0.25turn) 30;
-      animation: borderRotate 2500ms linear infinite forwards;
+    border-image: conic-gradient(from var(--angle), rgba(0, 204, 180, 0.1), rgba(0, 204, 180, 1) 0.1turn, rgba(0, 204, 180, 1) 0.15turn, rgba(0, 204, 180, 0.1) 0.25turn) 30;
+    animation: borderRotate 2500ms linear infinite forwards;
 }
+
 @keyframes borderRotate {
-      100% {
-          --angle: 420deg;
-      }
+    100% {
+        --angle: 420deg;
+    }
 }
 
 
 
-footer{
+footer {
     padding: .3vw;
     text-align: center;
     font-size: 1.3vw;
@@ -427,40 +521,50 @@ footer{
     letter-spacing: .3vw;
     background-color: #080e20;
 }
-footer p{
+
+footer p {
     margin: 0;
     color: #8898b0;
 }
-footer a{
+
+footer a {
     text-decoration: none;
     color: #00ccb4;
 }
-footer a:hover{
+
+footer a:hover {
     background-color: #00ccb4;
     color: #080e20;
     border-radius: 5px;
 }
+
 @media only screen and (max-width: 991px) {
-    #experience #work{
+    #experience #work {
         border-right: none;
     }
-    #experience #techStack{
+
+    #experience #techStack {
         border-left: none;
         border-top: 25px solid #0a192f;
     }
-    #experience #work #nowJob img{
-        height:13vw;
+
+    #experience #work #nowJob img {
+        height: 13vw;
         width: 13vw;
     }
-    #projects #project p{
+
+    #projects #project p {
         font-size: 2vw;
     }
-    #contact{
+
+    #contact {
         left: 90vw;
     }
-    footer{
+
+    footer {
         font-size: 2vw;
     }
+
     /* #experience #work #nowJob #details #position{
         font-size: 3.5vw;
     }
@@ -482,147 +586,183 @@ footer a:hover{
         font-size: 5vw;
     } */
 }
-@media only screen and (max-width: 767px){
-    #home #myIntro{
-        top:1vh;
+
+@media only screen and (max-width: 767px) {
+    #home #myIntro {
+        top: 1vh;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    #home #myIntro #hello{
-        font-size:5vw;
+
+    #home #myIntro #hello {
+        font-size: 5vw;
     }
-    #home #myIntro #name{
-        font-size:6vw;
+
+    #home #myIntro #name {
+        font-size: 6vw;
     }
-    #home #myIntro #job{
+
+    #home #myIntro #job {
         font-size: 4vw;
     }
-    #getMe{
+
+    #getMe {
+        height: 4%;
+        font-size: 1rem;
+    }
+
+    .getMe {
         background-color: #E4F1FF;
         height: 4%;
-        width: 20%;
-        font-size: 2.9vw;
+        width: 80%;
+        font-size: 1rem;
     }
-    #experience h1{
+
+    #experience h1 {
         font-size: 9vw;
     }
-    #about #myPara{
+
+    #about #myPara {
         font-size: 2.5vw;
     }
-    #about .card{
+
+    #about .card {
         visibility: hidden;
         position: relative;
         bottom: 50vw;
     }
-    #about .mobileButton a{
+
+    #about .mobileButton a {
         font-size: 2.5vw;
         margin-left: 10px;
         visibility: visible;
     }
-    #about .mobileButton{
+
+    #about .mobileButton {
         width: 100vw;
         display: flex;
         justify-content: center;
         /* position: relative;
         bottom: 30vw; */
     }
-    #about #buttons{
-        height: 20px;
+
+    #about #buttons {
+        /*  height: px;*/
     }
+
     /* #projects #project p{
         font-size: 3.5vw;
     } */
-    #contact{
+    #contact {
         left: 85vw;
     }
-    #projects h1{
+
+    #projects h1 {
         font-size: 9vw;
     }
-    footer{
+
+    footer {
         font-size: 3vw;
     }
 }
-@media only screen and (max-width: 426px){
-    #home #myIntro #hello{
-        font-size:6vw;
+
+@media only screen and (max-width: 426px) {
+    #home #myIntro #hello {
+        font-size: 6vw;
         padding: 5px;
     }
-    #home #myIntro #name{
+
+    #home #myIntro #name {
         letter-spacing: 3px;
-        font-size:7vw;
+        font-size: 7vw;
     }
-    #home #myIntro #job{
+
+    #home #myIntro #job {
         letter-spacing: 2px;
         font-size: 4.5vw;
         padding: 5px;
     }
-    #getMe{
-        background-color: #E4F1FF;
-        height: 4%;
-        width: 25%;
-        font-size: 3vw;
-    }
-    #about h1{
+
+    #about h1 {
         font-size: 14vw;
     }
-    #about #myPara{
+
+    #about #myPara {
         font-size: 4vw;
     }
-    #about .mobileButton a{
+
+    #about .mobileButton a {
         font-size: 4vw;
     }
-    #experience h1{
+
+    #experience h1 {
         font-size: 12vw;
     }
-    #experience #work{
+
+    #experience #work {
         border-right: none;
     }
-    #experience #work #nowJob img{
-        height:18vw;
+
+    #experience #work #nowJob img {
+        height: 18vw;
         width: 18vw;
     }
-    #experience #work #nowJob #details #position{
+
+    #experience #work #nowJob #details #position {
         font-size: 5vw;
     }
-    #experience #work #nowJob #details a{
+
+    #experience #work #nowJob #details a {
         font-size: 4.5vw;
     }
-    #experience #work #nowJob #details #years{
+
+    #experience #work #nowJob #details #years {
         font-size: 4vw;
     }
-    #experience #work #nowJob #tech p{
+
+    #experience #work #nowJob #tech p {
         font-size: 3.5vw;
     }
-    #experience #nowJob #details #coreTech{
+
+    #experience #nowJob #details #coreTech {
         font-size: 3.5vw;
     }
-    #experience #techStack{
+
+    #experience #techStack {
         border-left: none;
     }
-    #experience #techStack #intro{
+
+    #experience #techStack #intro {
         font-size: 3.5vw;
     }
-    #experience #techStack #Technologies #head{
+
+    #experience #techStack #Technologies #head {
         font-size: 5vw;
     }
-    #experience #techStack #Technologies p{
+
+    #experience #techStack #Technologies p {
         font-size: 3.5vw;
     }
-    #experience #techStack #intro{
+
+    #experience #techStack #intro {
         font-size: 4vw;
 
     }
-    #projects h1{
+
+    #projects h1 {
         font-size: 12vw;
     }
-    #projects #project p{
+
+    #projects #project p {
         font-size: 3.5vw;
     }
-    #contact{
+
+    #contact {
         left: 77vw;
     }
-    footer{
+
+    footer {
         font-size: 3vw;
     }
 }

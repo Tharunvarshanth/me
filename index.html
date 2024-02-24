@@ -4,6 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Tharun Varshanth Krishnamoorthy">
+  <meta name="description" content="Tharun Varshanth Krishnamoorthy's personal website">
+  <meta name="keywords"
+    content="Tharun Varshanth Krishnamoorthy, Tharun, Varshanth, Krishnamoorthy, software engineer, full-stack developer">
   <title>Tharun</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
@@ -55,7 +59,12 @@
             <p id="hello">Hello...</p>
             <p id="name">I'm Tharun Varshanth</p>
             <p id="job">Software Engineer in Srilanka.</p>
-            <a href="mailto:tharun.varshanth.k@gmail.com" class="btn" id="getMe">Get Me</a>
+            <a class="btn getMe" id="getMe" style="color:#00ccb4">
+              <i class="fa-regular fa-envelope fa-2x" style="color:#00ccb4"></i>&nbsp;tharun.varshanth.k@gmail.com</a>
+            <br />
+            <a class="btn getMe get-me-contact" style="color:#4CB9E7">
+              <i class="fa-brands fa-whatsapp fa-2x" style="color:#4CB9E7"></i>&nbsp;+94768407950</a>
+
           </div>
         </div>
       </div>
@@ -75,40 +84,33 @@
   <!-- About -->
   <section id="about">
     <div class="container">
-      <h1><span><i class="fa-solid fa-greater-than fa-sm"></span></i> ABOUT ME</h1>
+      <h2><span><i class="fa-solid fa-greater-than fa-sm"></span></i> ABOUT ME</h2>
       <div class="row">
         <div id="myPara" class="col-lg-7 col-md-7 col-12">
           <p data-aos="fade-up">
             As a highly skilled and experienced software engineer and full-stack developer, I bring a robust background
             in web and mobile development to the table. With a Bachelor's degree in Software Engineering from the
             University of Kelaniya and a GPA of 3.54, I have cultivated a strong foundation in the field.
-            <br />
-            In my work experience, I have honed my expertise through roles at Daraz Financial Services and Mitra
-            Innovations. At Daraz Financial Services, I contributed to projects such as KOKO, a Python-based Decision
-            Engine system facilitating seamless shopping experiences and Daraz Seller Credit, a platform providing loans
-            to Daraz sellers. At Mitra Innovations, I worked on Sillara Agri Tech, an online marketplace connecting B2B
-            entities in the food industry in Sri Lanka.
-            <br />
-            Additionally, I have experience in the telecommunications sector, having worked with Cellcard Mobile, a
-            Cambodian telecom company. I contributed to the development of their self-care mobile app, utilizing React
-            Native for cross-platform development and configuring native components for Android, iOS, and Huawei
-            platforms.
-            <br />
+            <br /><br />
+            I am a hardworking and dedicated individual, committed to delivering high-quality work and
+            exceeding expectations. My experience has honed my problem-solving abilities and equipped me with the
+            technical skills necessary to thrive in a dynamic environment.
+            <br /><br />
             In terms of volunteer experience, I have served on the organizing committee for RealHack 4.0 with the
             Software Engineering Students Association and as the Web Editor for Former Studpro 4.0 with IEEE SL Young
             Professionals. Furthermore, I have achieved notable recognitions such as participating in Google Hashcode,
             ranking in the top 20 in Azure Cloud Skill Challenges, and participating in the Arimac Future Cast IoT
             Ideathon.
-            <br />
+            <br /><br />
             My soft skills include being a team player, effective communication, adept problem-solving abilities, and
             strong time management skills. With my qualifications, experience, and enthusiasm, I am confident in my
             ability to excel in any role that requires a dedicated and proficient software engineer and full-stack
             developer.
             <br>
-
           </p>
         </div>
-        <div class="col-lg-5 col-md-5 col-12 d-flex justify-content-center" id="buttons">
+
+        <div class="col-lg-5 col-md-5 col-12 d-flex flex-column justify-content-center " id="buttons">
           <div class="card">
             <a href="#" data-aos="fade-up"><img src="images/tharun1.jpg" class="card-img-top img-fluid"
                 alt="my-profile"></a>
@@ -118,20 +120,44 @@
               <a href="file/myResume.pdf" download class="btn ">resume</a>
             </div>
           </div>
+
+          <div class="card mt-2">
+            <h2><span><i class="fa-solid fa-greater-than "></span></i> EDUCATION</h2>
+
+            <div class="education-card">
+              <div class="details">
+                <p class="course-name">B.SC(Hons) in Software Engineering</span></p>
+                <p class="date">2019 Feb - 2023 June</p>
+                <p class="place">University of Kelaniya | GPA 3.54</p>
+              </div>
+            </div>
+
+            <div class="education-card">
+              <div class="details">
+                <p class="course-name">S.Thomas College, Bandarawela</span></p>
+                <p class="date">Results : 3B</p>
+                <p class="place">2017 A/L | physical science stream</p>
+              </div>
+            </div>
+
+          </div>
         </div>
-        <div class="mobileButton" data-aos="fade-up">
-          <a href="https://www.linkedin.com/in/tharun-varshanth-krishnamoorthy/" class="btn ">linkedin</a>
-          <a href="https://github.com/Tharunvarshanth" class="btn ">github</a>
-          <a href="file/myResume.pdf" download class="btn ">resume</a>
-        </div>
+
       </div>
+      <div class="mobileButton" data-aos="fade-up">
+        <a href="https://www.linkedin.com/in/tharun-varshanth-krishnamoorthy/" class="btn ">linkedin</a>
+        <a href="https://github.com/Tharunvarshanth" class="btn ">github</a>
+        <a href="file/myResume.pdf" download class="btn ">resume</a>
+      </div>
+
+    </div>
     </div>
   </section>
 
   <!-- experience -->
   <section id="experience">
     <div class="container">
-      <h1><span><i class="fa-solid fa-greater-than fa-sm"></span></i> EXPERIENCE</h1>
+      <h2><span><i class="fa-solid fa-greater-than fa-sm"></span></i> EXPERIENCE</h2>
       <div class="row">
         <div class="col-lg-7  col-12" id="work">
           <div id="nowJob" data-aos="zoom-in">
@@ -186,7 +212,7 @@
           </div>
         </div>
         <div class="col-lg-5  col-12" id="techStack">
-          <h1><span><i class="fa-solid fa-greater-than fa-sm"></span></i> Tech Stack</h1>
+          <h2><span><i class="fa-solid fa-greater-than fa-sm"></span></i> Tech Stack</h2>
           <p id="intro" data-aos="zoom-in">Usually the tools I use for the job, depend on the job. There's no one-size
             fits all, and as such I'm always trying out new technologies, and constantly learning.</p>
           <div id="Technologies" data-aos="zoom-in">
@@ -239,7 +265,7 @@
   <!-- Projects -->
   <section id="projects">
     <div class="container">
-      <h1><span><i class="fa-solid fa-greater-than fa-sm"></span></i> PROJECTS</h1>
+      <h2><span><i class="fa-solid fa-greater-than fa-sm"></span></i> PROJECTS</h2>
       <div class="row d-flex justify-content-center" id="projects">
         <div class="col-lg-10" id="project" data-aos="fade-up">
           <h4>KOKO</h4>
@@ -247,14 +273,16 @@
           <p id="description">
             Users can shop at their favorite retailers just got easier with
             a Python-based Decision engine system. They can split the
-            cost of their purchases into 3 interest-free payments.
+            cost of their purchases into 3 interest-free payments.Each spring boot applications
+            deployed seprate services and work as microservice.
           </p>
         </div>
         <div class="col-lg-10" id="project" data-aos="fade-up">
           <h4>Seller Credit</h4>
           <h5>at Daraz Financial Services</h5>
           <p id="description">
-            Giving the loan to the daraz sellers through sellers site.
+            Giving the loan to the daraz sellers through sellers site.Application developed with spring boot and vue js
+            finally connect with existing daraz seller platform.
           </p>
         </div>
         <div class="col-lg-10" id="project" data-aos="fade-up">
